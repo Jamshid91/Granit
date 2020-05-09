@@ -1,0 +1,395 @@
+html {
+  font-size: 10px; }
+  html body {
+    font-size: 16px; }
+    html body .text-logo {
+      margin-left: 1rem; }
+      html body .text-logo strong {
+        font-size: 1.25em;
+        text-transform: uppercase;
+        letter-spacing: 4px; }
+    html body .header-nav {
+      padding: 3rem 0; }
+      html body .header-nav .logo {
+        -webkit-animation: anim 4s ease alternate infinite;
+                animation: anim 4s ease alternate infinite; }
+@-webkit-keyframes anim {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0); }
+  100% {
+    -webkit-transform: rotatey(180deg);
+            transform: rotatey(180deg); } }
+@keyframes anim {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0); }
+  100% {
+    -webkit-transform: rotatey(180deg);
+            transform: rotatey(180deg); } }
+      html body .header-nav p {
+        font-size: 0.7em;
+        color: #ababab; }
+      html body .header-nav span {
+        font-size: 1.15em;
+        font-weight: 700; }
+      html body .header-nav button {
+        height: 4rem;
+        border: 3px solid black;
+        background-color: #fff;
+        font-size: 0.75em;
+        font-weight: 700; }
+        html body .header-nav button:hover {
+          background-color: #ffcc00;
+          border: none;
+          -webkit-transition: all 2s ease;
+          transition: all 2s ease; }
+    html body .nav .row {
+      background-color: #ffcc00;
+      padding: 2.5rem 0;
+      position: relative;
+      margin: 0 auto;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+    html body .nav a {
+      text-decoration: none;
+      font-size: 0.85em;
+      font-weight: 700;
+      color: black; }
+      html body .nav a:hover {
+        border: 2px solid #fff;
+        border-radius: 5px;
+        padding: 1.8rem;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        background-color: #fff6;
+        opacity: .8; }
+    html body .nav-burger .burg-item {
+      background: #ffcc00;
+      padding: 1rem 0; }
+      html body .nav-burger .burg-item span {
+        display: block;
+        width: 3rem;
+        height: 4px;
+        background-color: #000;
+        margin-bottom: 4px;
+        margin-left: 5rem; }
+    html body .nav-burger .nav-mobile ul {
+      background: #ffcc00;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding-left: 5rem; }
+      html body .nav-burger .nav-mobile ul li {
+        display: block;
+        padding: 1rem 0; }
+        html body .nav-burger .nav-mobile ul li a {
+          font-size: 1.25em;
+          font-weight: 700;
+          color: #000; }
+          html body .nav-burger .nav-mobile ul li a:hover {
+            color: #fff;
+            text-decoration: none; }
+    html body header {
+      background-image: url(../images/header.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-top: -4rem;
+      color: #fff; }
+      html body header h1 {
+        padding-top: 17rem;
+        text-transform: uppercase;
+        font-size: 2em;
+        font-weight: 700; }
+      html body header p {
+        font-size: 0.85em;
+        font-weight: 300;
+        padding-top: 4rem;
+        padding-bottom: 5rem; }
+      html body header button {
+        font-size: 0.75em;
+        font-weight: 700;
+        height: 5rem;
+        background-color: #ffcc00;
+        border: none;
+        margin-bottom: 14rem; }
+        html body header button:hover {
+          border: 3px solid black;
+          background-color: #fff;
+          -webkit-transition: all 2s ease;
+          transition: all 2s ease; }
+      html body header .text-btn {
+        margin-top: 1rem; }
+      html body header span {
+        font-size: 0.85em; }
+    html body main {
+      padding: 8rem 0; }
+      html body main h1 {
+        font-size: 1.25em;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 6rem; }
+      html body main .box {
+        width: 100%;
+        border: 2px solid #f6f6f6;
+        padding: 3.5rem 0; }
+        html body main .box .text-sup {
+          padding-top: 3.9rem; }
+        html body main .box h3 {
+          padding-top: 4.5rem;
+          padding-bottom: 2rem;
+          font-size: 0.94em;
+          font-weight: 900; }
+        html body main .box p {
+          font-size: 0.81em;
+          padding-bottom: 2.5rem; }
+        html body main .box span {
+          padding: 3rem 0;
+          font-weight: 700; }
+        html body main .box button {
+          width: 18rem;
+          height: 5rem;
+          background-color: #ffcc00;
+          border: none;
+          font-size: 0.75em;
+          font-weight: 700;
+          margin-top: 3rem; }
+          html body main .box button:hover {
+            border: 3px solid black;
+            background-color: #fff;
+            -webkit-transition: all 2s ease;
+            transition: all 2s ease; }
+    html body .advantages {
+      background-color: #f6f6f6;
+      padding: 8rem 0; }
+      html body .advantages h1 {
+        font-size: 1.25em;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 6rem; }
+      html body .advantages .box-icon {
+        width: 100%;
+        border: 2px solid #fff;
+        padding: 4rem 0; }
+        html body .advantages .box-icon:hover {
+          background-color: #fff; }
+        html body .advantages .box-icon h3 {
+          font-size: 0.94em;
+          font-weight: 700;
+          padding-top: 4rem;
+          padding-bottom: 2rem; }
+        html body .advantages .box-icon p {
+          font-size: 0.75em; }
+    html body .popular {
+      padding: 8rem 0; }
+      html body .popular h1 {
+        font-size: 1.25em;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 6rem; }
+      html body .popular .box-img {
+        width: 100%;
+        border: 2px solid #f2f2f2;
+        padding: 2rem 0; }
+        html body .popular .box-img img {
+          margin-bottom: 2rem; }
+        html body .popular .box-img .stock {
+          position: absolute;
+          top: 3.5rem;
+          left: 6.5rem;
+          background-color: #ff0000;
+          color: #fff;
+          font-size: 0.625em;
+          font-weight: 700;
+          padding: 0.8rem 1rem;
+          -webkit-animation: anim2 1s ease alternate infinite;
+                  animation: anim2 1s ease alternate infinite; }
+@-webkit-keyframes anim2 {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); } }
+@keyframes anim2 {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); } }
+        html body .popular .box-img u {
+          font-size: 0.81em; }
+        html body .popular .box-img .price {
+          margin-top: 2.5rem; }
+          html body .popular .box-img .price strike {
+            font-size: 0.63em;
+            color: #c8c8c8;
+            padding-top: 0.5rem; }
+          html body .popular .box-img .price strong {
+            padding-left: 1rem;
+            font-weight: 700;
+            color: #ff0000;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center; }
+        html body .popular .box-img span {
+          font-weight: 700; }
+        html body .popular .box-img button {
+          width: 70%;
+          height: 5rem;
+          margin-top: 2.5rem;
+          background-color: #ffcc00;
+          border: none; }
+          html body .popular .box-img button:hover {
+            background-color: #fff;
+            border: 3px solid #000;
+            -webkit-transition: all 2s ease;
+            transition: all 2s ease; }
+    html body .my {
+      background-color: #f4f4f4;
+      padding: 8rem 0; }
+      html body .my h1 {
+        font-size: 1.25em;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 6rem; }
+      html body .my .my-box {
+        width: 100%;
+        border: 2px solid #fff;
+        padding: 4.5rem 0; }
+        html body .my .my-box .img-start,
+        html body .my .my-box .img-end {
+          height: 116px; }
+        html body .my .my-box img {
+          margin-bottom: 3.5rem;
+          -webkit-animation: anim3 3s ease alternate infinite;
+                  animation: anim3 3s ease alternate infinite; }
+@-webkit-keyframes anim3 {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0); }
+  100% {
+    -webkit-transform: rotatey(45deg);
+            transform: rotatey(45deg); } }
+@keyframes anim3 {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0); }
+  100% {
+    -webkit-transform: rotatey(45deg);
+            transform: rotatey(45deg); } }
+        html body .my .my-box a {
+          font-size: 0.94em;
+          font-weight: 700;
+          color: #000; }
+          html body .my .my-box a:hover {
+            color: #ff0000;
+            text-decoration: none; }
+    html body .map {
+      position: relative; }
+      html body .map .contacts {
+        position: absolute;
+        background-color: #fff;
+        top: 4rem;
+        right: 10rem;
+        padding: 6rem 11rem 6rem 6rem; }
+        html body .map .contacts h1 {
+          padding-bottom: 5rem;
+          font-size: 1.25em;
+          font-weight: 700; }
+        html body .map .contacts p {
+          padding-left: 1.5rem;
+          font-size: 0.85em;
+          font-weight: 700; }
+        html body .map .contacts i {
+          padding-top: 0.6rem; }
+        html body .map .contacts .adress {
+          margin: 4rem 0; }
+          html body .map .contacts .adress p {
+            font-weight: 400; }
+    html body footer {
+      background-color: #292929;
+      color: #fff;
+      padding: 5rem 0; }
+      html body footer .text-logo p {
+        font-size: 0.65em; }
+      html body footer .text-logo strong {
+        font-size: 1.19em;
+        font-weight: 500;
+        letter-spacing: 4px; }
+      html body footer .text-foot {
+        text-align: right; }
+        html body footer .text-foot span {
+          font-size: 1.125em;
+          font-weight: 700; }
+        html body footer .text-foot p {
+          font-size: 0.69em; }
+      html body footer .btn-grant {
+        margin-top: 3rem; }
+        html body footer .btn-grant p {
+          font-size: 0.75em; }
+        html body footer .btn-grant button {
+          background: none;
+          border: 3px solid #fff;
+          color: #fff;
+          font-size: 0.75em;
+          font-weight: 700;
+          padding: 1rem 0; }
+          html body footer .btn-grant button:hover {
+            background-color: #fff;
+            color: #292929; }
+
+@media screen and (max-width: 1200px) {
+  body .popular .stock {
+    margin-left: -2.5rem; } }
+@media screen and (max-width: 992px) {
+  body .popular .stock {
+    margin-left: 1rem; }
+  body .popular .box-p {
+    margin-top: 2.5rem; }
+  body .contacts {
+    position: relative;
+    margin-right: -8rem;
+    padding: 0; } }
+@media screen and (min-width: 768px) {
+  body .mobile {
+    display: none; }
+  body .burg-item {
+    display: none;
+    cursor: pointer; } }
+@media screen and (max-width: 768px) {
+  body .desktop {
+    display: none; }
+  body main .box3 {
+    margin-top: 2rem; }
+  body .popular .stock {
+    margin-left: 3rem; }
+  body .advantages .box3-i {
+    margin-top: 2.5rem; }
+  body .my .img-middle {
+    margin-bottom: 2.5rem; }
+  body .contacts {
+    display: none; } }
+@media (min-width: 377px) and (max-width: 576px) {
+  body main .box2 {
+    margin-top: 2rem; }
+  body .popular .stock {
+    margin-left: 1.5rem; }
+  body .popular .box2-p {
+    margin-top: 2.5rem; }
+  body .advantages .box2-i {
+    margin-top: 2.5rem; }
+  body .my .img-middle {
+    margin-top: 2.5rem; }
+  body .my img {
+    -webkit-animation-name: none;
+            animation-name: none; } }
+@media (min-width: 0) and (max-width: 376px) {
+  body .popular .stock {
+    margin-left: -2.5rem; } }
